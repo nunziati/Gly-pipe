@@ -36,6 +36,12 @@ POPS (solvent accessible surface areas of proteins and nucleic acids) is needed 
 Pymol is needed, in order to mutate and minimize the structures.
 - It can be found at:
 	https://pymol.org/2/
+	
+Energy minimization is carried out by the "optimize" pymol plugin:
+- Described and downloadable at:
+	https://pymolwiki.org/index.php/Optimize
+- Needs Openbabel to run, the installation instructions can be found at:
+	http://openbabel.org/wiki/Category:Installation	
 
 Fpocket software is needed in order to estimate the pockets.
 - It can be retrieved at:
