@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 4.6188
+HEADER 1  - Drug Score                        : 0.0202
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5187
+HEADER 4  - Mean alpha-sphere SA              : 0.5732
+HEADER 5  - Mean B-factor                     : 0.0994
+HEADER 6  - Hydrophobicity Score              : 26.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.3333
+HEADER 9  - Real volume (approximation)       : 144.9892
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 12.0000
+HEADER 12 - Number of apolar alpha sphere     :    13
+HEADER 13 - Proportion of apolar alpha sphere : 0.7222
+ATOM    635   CD ARG A  81       4.141 -29.059  84.660  1.00  5.36           C 0
+ATOM    634   CG ARG A  81       4.296 -27.697  85.351  1.00  2.43           C 0
+ATOM   1343    O ASN A 176       5.027 -26.621  79.370  1.00 15.51           O 0
+ATOM    633   CB ARG A  81       3.598 -26.642  84.532  1.00  2.00           C 0
+ATOM   1377  CD1 LEU A 180       2.389 -27.478  81.356  1.00 19.43           C 0
+ATOM   1369   CG PRO A 179       5.964 -30.691  78.953  1.00 19.42           C 0
+ATOM   1368   CB PRO A 179       4.889 -31.638  79.435  1.00 26.33           C 0
+ATOM    638  NH1 ARG A  81       3.150 -31.414  83.324  1.00  6.71           N 1
+ATOM    630   CA ARG A  81       3.404 -25.219  85.040  1.00 14.75           C 0
+ATOM    656   CZ PHE A  83       6.236 -21.637  84.182  1.00 56.75           C 0
+ATOM    655  CE2 PHE A  83       5.825 -21.939  82.883  1.00 55.14           C 0
+ATOM   1345   CG ASN A 176       8.592 -24.328  79.792  1.00 11.25           C 0
+ATOM    632    O ARG A  81       3.308 -24.357  82.878  1.00 22.75           O 0
+ATOM   1344   CB ASN A 176       7.180 -24.494  79.274  1.00  2.45           C 0
+ATOM   1346  ND2 ASN A 176       9.513 -25.288  79.830  1.00 24.29           N 0
+ATOM   1341   CA ASN A 176       7.008 -25.746  78.450  1.00  9.58           C 0
+ATOM   1334    O LYS A 175       7.742 -27.899  76.813  1.00 16.52           O 0
+TER
+END

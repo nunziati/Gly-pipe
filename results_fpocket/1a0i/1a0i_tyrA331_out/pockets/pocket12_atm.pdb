@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 4.6565
+HEADER 1  - Drug Score                        : 0.0082
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.3807
+HEADER 4  - Mean alpha-sphere SA              : 0.4023
+HEADER 5  - Mean B-factor                     : 0.1859
+HEADER 6  - Hydrophobicity Score              : 3.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 114.9500
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.7333
+ATOM   1320  CD2 HIS A 173       8.061 -18.447  77.461  1.00  9.95           C 0
+ATOM   1323  NE2 HIS A 173       8.230 -17.172  77.757  1.00 14.15           N 0
+ATOM    668   OH TYR A  84       3.692 -18.221  77.200  1.00 41.34           O 0
+ATOM    650   CB PHE A  83       3.201 -19.234  82.294  1.00 27.86           C 0
+ATOM    653  CD2 PHE A  83       4.861 -21.147  82.262  1.00 52.50           C 0
+ATOM    651   CG PHE A  83       4.304 -20.060  82.946  1.00 47.59           C 0
+ATOM   1317    O HIS A 173       5.530 -22.799  76.205  1.00 30.03           O 0
+ATOM    666  CE2 TYR A  84       1.919 -19.584  78.094  1.00 30.68           C 0
+ATOM   1315   CA HIS A 173       7.182 -21.066  76.179  1.00  9.21           C 0
+ATOM   1344   CB ASN A 176       7.180 -24.494  79.274  1.00  2.45           C 0
+ATOM   1319   CG HIS A 173       7.116 -18.487  76.436  1.00  2.66           C 0
+ATOM   1347  OD1 ASN A 176       8.913 -23.232  80.220  1.00 31.38           O 0
+ATOM   1318   CB HIS A 173       6.577 -19.738  75.717  1.00  7.00           C 0
+ATOM    655  CE2 PHE A  83       5.825 -21.939  82.883  1.00 55.14           C 0
+ATOM   1310   CG GLU A 172      11.565 -21.383  78.011  1.00 42.75           C 0
+ATOM   1313  OE2 GLU A 172      12.320 -19.735  79.601  1.00 44.13           O 1
+TER
+END
