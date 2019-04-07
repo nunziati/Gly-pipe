@@ -1,0 +1,12 @@
+Glycinization prediction of 1a0i
+Minimum sasa = 5
+
+Target = TYR A 28
+
+
+
+Pocket created by the glycinization of TYR A 28 :
+Pocket ID = 8
+Fpocket's Druggability Score = 0.199
+Volume = 220.324
+Path to structure for PockDrug analysis : "minimized/1a0i/1a0i_tyrA28.pdb"
