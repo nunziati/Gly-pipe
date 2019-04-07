@@ -38,6 +38,7 @@ Pymol is needed, in order to mutate and minimize the structures.
 	https://pymol.org/2/
 	
 Energy minimization is carried out by the "optimize" pymol plugin:
+- This is a resource-demanding procedure. It is usually skipped.
 - Described and downloadable at:
 	https://pymolwiki.org/index.php/Optimize
 - Needs Openbabel to run, the installation instructions can be found at:
@@ -46,12 +47,7 @@ Energy minimization is carried out by the "optimize" pymol plugin:
 Fpocket software is needed in order to estimate the pockets.
 - It can be retrieved at:
 	https://github.com/Discngine/fpocket
-
-The python scikit-learn package is needed for the DS prediction.
-- Described at:
-	https://scikit-learn.org/
-- Installation instructions at:
-	https://scikit-learn.org/stable/install.html
+	
 
 *******************************************************************************************************************
 
@@ -81,7 +77,7 @@ Partial results are available for consultation in the other subdirectories.
 - Minimized vesrions of the mutant structures are saved in "minimized".
 - Fpocket results are stored in "results_fpocket".
 
-Energy minimization is needed to check the stability of each structure produced by GlyPipe.
+Energy minimization allows to check the stability of each structure produced by GlyPipe.
 - This is a resource-demanding step, and can be deactivated by setting the "do_minimize" parameter to False inside the script.
 - Sometimes, results are meaningful also without minimizing the structure.
 - GlyPipe can be used to build mutant structures which will be minimized later on a more powerful calculator.
@@ -97,5 +93,15 @@ Fpocket estimation parameters can be changed by modifying the "fpocket_params" s
 - Some predefined versions are provided as commented lines inside the script.
 - To choose your own pocket estimation parameters, check the fpocket manual.
 - Changing the pocket estimation parameters significantly will decrease the accuracy of the DS predictor.
+
+Final results are stored in "results_glypipe". Here, the outcome of each glycinization is reported.
+- If no pocket was created near the glycinized aminoacid, no further action is needed.
+- If a pocket was created, the path to the corresponding mutant structure is given.
+
+An approximate druggability index is given by fpocket (Fpocket's Druggability Score):
+- If this value is small (smaller than 0.3), the pocket is almost certainly non-druggable.
+- Otherwise, the structure should be analyzed with PockDrug in order to verify its druggability.
+- This can be done by uploading the structure (whose path is reported in the results file).
+- Alternatively, you can upload just the pocket file to PockDrug. This can be found in the "results_fpocket" subdirectory.
 
 *******************************************************************************************************************
