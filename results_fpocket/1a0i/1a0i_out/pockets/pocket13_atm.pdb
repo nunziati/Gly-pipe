@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 4.3819
+HEADER 1  - Drug Score                        : 0.0185
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.2762
+HEADER 4  - Mean alpha-sphere SA              : 0.4586
+HEADER 5  - Mean B-factor                     : 0.1170
+HEADER 6  - Hydrophobicity Score              : 31.5714
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.2857
+HEADER 9  - Real volume (approximation)       : 56.6236
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1351   CB MET A 177       2.689 -24.777  76.400  1.00 20.30           C 0
+ATOM   1347    N MET A 177       4.767 -25.516  77.432  1.00 15.48           N 0
+ATOM   1316    O HIS A 173       5.530 -22.799  76.205  1.00 30.03           O 0
+ATOM   1354   CE MET A 177       0.383 -23.283  78.325  1.00  8.57           C 0
+ATOM    653  CD2 PHE A  83       4.861 -21.147  82.262  1.00 52.50           C 0
+ATOM   1348   CA MET A 177       3.335 -25.769  77.366  1.00 12.29           C 0
+ATOM    632    O ARG A  81       3.308 -24.357  82.878  1.00 22.75           O 0
+ATOM   1342    O ASN A 176       5.027 -26.621  79.370  1.00 15.51           O 0
+ATOM   1341    C ASN A 176       5.517 -25.985  78.438  1.00  9.99           C 0
+ATOM   1343   CB ASN A 176       7.180 -24.494  79.274  1.00  2.45           C 0
+ATOM    646    N PHE A  83       1.571 -20.932  82.769  1.00 22.65           N 0
+ATOM    666  CE2 TYR A  84       1.919 -19.584  78.094  1.00 30.68           C 0
+ATOM   1376  CD1 LEU A 180       2.389 -27.478  81.356  1.00 19.43           C 0
+ATOM   1353   SD MET A 177       0.292 -24.996  77.867  1.00 21.07           S 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 4.8087
+HEADER 1  - Drug Score                        : 0.0117
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.4972
+HEADER 4  - Mean alpha-sphere SA              : 0.5853
+HEADER 5  - Mean B-factor                     : 0.7598
+HEADER 6  - Hydrophobicity Score              : 16.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.7500
+HEADER 9  - Real volume (approximation)       : 133.8840
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 9.0000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.6250
+ATOM    971   NE ARG A 130     -24.625 -44.938  58.623  1.00122.29           N 0
+ATOM    990   CD LYS A 132     -26.743 -44.103  52.056  1.00 90.69           C 0
+ATOM    989   CG LYS A 132     -25.870 -42.975  52.566  1.00 89.63           C 0
+ATOM    969   CG ARG A 130     -23.446 -45.810  56.611  1.00119.31           C 0
+ATOM    967    O ARG A 130     -23.237 -44.565  53.134  1.00110.90           O 0
+ATOM    991   CE LYS A 132     -28.157 -43.603  51.797  1.00 86.48           C 0
+ATOM    992   NZ LYS A 132     -29.141 -44.595  52.201  1.00 77.02           N 0
+ATOM    979   CB LYS A 131     -21.665 -41.492  55.715  1.00 92.64           C 0
+ATOM    976   CA LYS A 131     -22.397 -42.322  54.620  1.00 91.60           C 0
+ATOM    980   CG LYS A 131     -21.738 -42.278  57.054  1.00 87.83           C 0
+ATOM    987    O LYS A 132     -26.061 -39.926  53.901  1.00 83.27           O 0
+ATOM   1016  CG2 VAL A 135     -23.181 -37.486  56.601  1.00 73.49           C 0
+ATOM    974  NH2 ARG A 130     -26.058 -43.999  60.203  1.00114.92           N 0
+ATOM    981   CD LYS A 131     -21.593 -41.561  58.400  1.00 90.51           C 0
+ATOM   1015  CG1 VAL A 135     -23.564 -37.640  59.050  1.00 72.94           C 0
+ATOM    984    N LYS A 132     -23.815 -41.328  53.203  1.00 82.88           N 0
+TER
+END
