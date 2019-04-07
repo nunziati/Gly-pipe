@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 5.7245
+HEADER 1  - Drug Score                        : 0.1319
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.2711
+HEADER 4  - Mean alpha-sphere SA              : 0.4489
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : 57.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.6667
+HEADER 9  - Real volume (approximation)       : 82.8947
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 9.0000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.5882
+ATOM   4381  CG2 VAL A 278      18.321 -19.452  36.845  1.00  0.00           C 0
+ATOM   5194  CD1 LEU A 340      15.986 -14.006  37.411  1.00  0.00           C 0
+ATOM   5192   CB LEU A 340      16.592 -15.908  39.059  1.00  0.00           C 0
+ATOM   4338   CD ARG A 276      19.402 -13.851  34.110  1.00  0.00           C 0
+ATOM   5188    N LEU A 340      18.509 -14.401  39.221  1.00  0.00           N 0
+ATOM   4379   CB VAL A 278      18.248 -19.703  35.343  1.00  0.00           C 0
+ATOM   4336   CB ARG A 276      19.255 -15.448  32.197  1.00  0.00           C 0
+ATOM   4287  CD2 LEU A 272      15.582 -16.440  33.752  1.00  0.00           C 0
+ATOM   4359    O LEU A 277      21.717 -19.037  33.569  1.00  0.00           O 0
+ATOM   4339   NE ARG A 276      20.755 -13.859  34.686  1.00  0.00           N 0
+ATOM   5195  CD2 LEU A 340      14.902 -16.238  37.275  1.00  0.00           C 0
+ATOM   5182   OG SER A 339      22.528 -13.015  38.285  1.00  0.00           O 0
+ATOM   5178   CA SER A 339      20.113 -12.747  38.454  1.00  0.00           C 0
+ATOM   5181   CB SER A 339      21.439 -12.903  39.204  1.00  0.00           C 0
+ATOM   5191    O LEU A 340      18.858 -16.704  40.875  1.00  0.00           O 0
+TER
+END

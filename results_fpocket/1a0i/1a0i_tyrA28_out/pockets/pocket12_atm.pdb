@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 6.3742
+HEADER 1  - Drug Score                        : 0.0070
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4096
+HEADER 4  - Mean alpha-sphere SA              : 0.5300
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : -9.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.6667
+HEADER 9  - Real volume (approximation)       : 138.9260
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 7.0000
+HEADER 12 - Number of apolar alpha sphere     :     8
+HEADER 13 - Proportion of apolar alpha sphere : 0.4706
+ATOM   1928  CE1 PHE A 120     -19.310 -47.184  63.140  1.00  0.00           C 0
+ATOM   1920    N PHE A 120     -16.791 -43.662  63.954  1.00  0.00           N 0
+ATOM   1929  CE2 PHE A 120     -17.265 -48.443  63.369  1.00  0.00           C 0
+ATOM   1930   CZ PHE A 120     -18.523 -48.278  62.791  1.00  0.00           C 0
+ATOM   1842  CG2 THR A 115     -15.431 -42.803  58.177  1.00  0.00           C 0
+ATOM   1926  CD1 PHE A 120     -18.842 -46.259  64.072  1.00  0.00           C 0
+ATOM   1927  CD2 PHE A 120     -16.793 -47.517  64.300  1.00  0.00           C 0
+ATOM   1907    O GLU A 119     -18.333 -42.528  62.762  1.00  0.00           O 0
+ATOM   1923    O PHE A 120     -14.204 -45.019  64.059  1.00  0.00           O 0
+ATOM   1925   CG PHE A 120     -17.581 -46.419  64.665  1.00  0.00           C 0
+ATOM   1987   CE LYS A 131     -21.122 -42.697  59.466  1.00  0.00           C 0
+ATOM   1967  NH1 ARG A 130     -24.185 -45.413  60.808  1.00  0.00           N 1
+ATOM   1988   NZ LYS A 131     -21.420 -42.140  60.786  1.00  0.00           N 1
+ATOM   1964   CD ARG A 130     -23.528 -46.116  58.137  1.00  0.00           C 0
+ATOM   1876    O ASN A 117     -14.067 -41.081  63.025  1.00  0.00           O 0
+ATOM   1877   CB ASN A 117     -15.856 -39.726  60.782  1.00  0.00           C 0
+TER
+END

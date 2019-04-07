@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 8.9720
+HEADER 1  - Drug Score                        : 0.0103
+HEADER 2  - Number of V. Vertices             :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.4018
+HEADER 4  - Mean alpha-sphere SA              : 0.5887
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : -3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.4286
+HEADER 9  - Real volume (approximation)       : 216.5680
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 9.0000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.4545
+ATOM    292   CA SER A  17      19.508  -8.351  52.733  1.00  0.00           C 0
+ATOM    335   CB LYS A  20      22.233 -10.618  55.074  1.00  0.00           C 0
+ATOM    336   CG LYS A  20      23.745 -10.415  55.157  1.00  0.00           C 0
+ATOM    294    O SER A  17      19.725  -7.803  55.103  1.00  0.00           O 0
+ATOM    353    N LYS A  21      20.955  -9.122  57.599  1.00  0.00           N 0
+ATOM    354   CA LYS A  21      21.046  -8.103  58.640  1.00  0.00           C 0
+ATOM    411  OD2 ASP A  24      25.429  -9.227  58.477  1.00  0.00           O 1
+ATOM   5216  NH1 ARG A 341      20.560 -11.284  47.410  1.00  0.00           N 1
+ATOM    291    N SER A  17      18.793  -9.413  52.036  1.00  0.00           N 0
+ATOM    283  OE1 GLU A  16      21.714 -12.847  49.240  1.00  0.00           O 0
+ATOM    278    C GLU A  16      18.880 -10.721  52.476  1.00  0.00           C 0
+ATOM    280   CB GLU A  16      19.212 -12.214  50.494  1.00  0.00           C 0
+ATOM    295   CB SER A  17      19.324  -6.969  52.079  1.00  0.00           C 0
+ATOM    337   CD LYS A  20      24.522 -11.732  55.154  1.00  0.00           C 0
+ATOM    281   CG GLU A  16      20.209 -13.243  51.031  1.00  0.00           C 0
+ATOM    282   CD GLU A  16      21.198 -13.732  49.979  1.00  0.00           C 0
+ATOM    279    O GLU A  16      19.459 -11.008  53.527  1.00  0.00           O 0
+ATOM   3144   CE MET A 201      21.222 -15.448  53.821  1.00  0.00           C 0
+ATOM   3142   CG MET A 201      23.890 -15.442  54.578  1.00  0.00           C 0
+ATOM    284  OE2 GLU A  16      21.398 -14.980  49.972  1.00  0.00           O 1
+TER
+END

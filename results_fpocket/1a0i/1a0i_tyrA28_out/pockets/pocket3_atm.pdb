@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 14.8044
+HEADER 1  - Drug Score                        : 0.0510
+HEADER 2  - Number of V. Vertices             :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.5508
+HEADER 4  - Mean alpha-sphere SA              : 0.4589
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : 19.6364
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 151.6140
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 14.0000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.6522
+ATOM   1161  CZ2 TRP A  73      -7.589 -27.220  74.746  1.00  0.00           C 0
+ATOM   2976  CZ2 TRP A 190      -4.132 -30.343  72.222  1.00  0.00           C 0
+ATOM   2885   CG PHE A 185      -6.414 -31.614  76.030  1.00  0.00           C 0
+ATOM   2886  CD1 PHE A 185      -7.777 -31.800  75.768  1.00  0.00           C 0
+ATOM    814  CZ2 TRP A  52      -7.524 -28.549  69.760  1.00  0.00           C 0
+ATOM   2937  CD1 ILE A 188      -6.778 -32.228  69.821  1.00  0.00           C 0
+ATOM   2884   CB PHE A 185      -5.393 -32.500  75.369  1.00  0.00           C 0
+ATOM   2922  OE2 GLU A 187      -8.989 -34.898  73.920  1.00  0.00           O 1
+ATOM   2935  CG1 ILE A 188      -6.183 -33.620  69.735  1.00  0.00           C 0
+ATOM   2883    O PHE A 185      -4.264 -34.606  74.015  1.00  0.00           O 0
+ATOM   2888  CE1 PHE A 185      -8.730 -31.010  76.402  1.00  0.00           C 0
+ATOM   1105  OD2 ASP A  70     -13.249 -31.603  76.704  1.00  0.00           O 1
+ATOM   1137  NH2 ARG A  72     -10.672 -34.030  76.549  1.00  0.00           N 0
+ATOM   2171  CG2 THR A 141      -9.709 -34.998  68.926  1.00  0.00           C 0
+ATOM   1045  CD2 LEU A  66     -12.055 -32.215  69.060  1.00  0.00           C 0
+ATOM   1042   CB LEU A  66     -11.931 -29.682  69.311  1.00  0.00           C 0
+ATOM   1044  CD1 LEU A  66     -10.213 -30.932  67.979  1.00  0.00           C 0
+ATOM    813  NE1 TRP A  52      -9.601 -27.204  70.160  1.00  0.00           N 0
+ATOM   1041    O LEU A  66     -12.695 -27.736  71.409  1.00  0.00           O 0
+ATOM   1160  NE1 TRP A  73      -9.859 -27.153  75.823  1.00  0.00           N 0
+ATOM    776   OG SER A  50     -11.404 -25.934  73.264  1.00  0.00           O 0
+TER
+END

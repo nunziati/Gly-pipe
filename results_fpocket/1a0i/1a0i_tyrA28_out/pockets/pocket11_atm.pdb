@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 7.7984
+HEADER 1  - Drug Score                        : 0.0241
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.5602
+HEADER 4  - Mean alpha-sphere SA              : 0.5607
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : 26.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.3333
+HEADER 9  - Real volume (approximation)       : 155.6228
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 14.0000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.7143
+ATOM   1299   CA ARG A  81       3.457 -25.215  85.068  1.00  0.00           C 0
+ATOM   1343   CZ PHE A  83       6.349 -21.534  84.149  1.00  0.00           C 0
+ATOM   1303   CG ARG A  81       4.387 -27.649  85.332  1.00  0.00           C 0
+ATOM   1302   CB ARG A  81       3.721 -26.595  84.440  1.00  0.00           C 0
+ATOM   1342  CE2 PHE A  83       5.968 -21.715  82.821  1.00  0.00           C 0
+ATOM   2732  OD1 ASN A 176       8.881 -23.230  80.600  1.00  0.00           O 0
+ATOM   1301    O ARG A  81       3.363 -24.062  82.908  1.00  0.00           O 0
+ATOM   2730   CG ASN A 176       8.637 -24.262  79.977  1.00  0.00           C 0
+ATOM   2729   CB ASN A 176       7.282 -24.457  79.347  1.00  0.00           C 0
+ATOM   2728    O ASN A 176       4.989 -26.511  79.548  1.00  0.00           O 0
+ATOM   1304   CD ARG A  81       4.286 -29.039  84.689  1.00  0.00           C 0
+ATOM   2731  ND2 ASN A 176       9.564 -25.247  79.929  1.00  0.00           N 0
+ATOM   2795  CD1 LEU A 180       2.489 -27.586  81.126  1.00  0.00           C 0
+ATOM   2780   CG PRO A 179       6.039 -30.695  78.955  1.00  0.00           C 0
+ATOM   2779   CB PRO A 179       4.912 -31.534  79.543  1.00  0.00           C 0
+ATOM   1307  NH1 ARG A  81       3.331 -31.379  83.362  1.00  0.00           N 1
+ATOM   2726   CA ASN A 176       7.057 -25.731  78.548  1.00  0.00           C 0
+ATOM   2706    O LYS A 175       7.922 -27.893  76.946  1.00  0.00           O 0
+TER
+END
