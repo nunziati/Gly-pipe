@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 3.1831
+HEADER 1  - Drug Score                        : 0.0111
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.4163
+HEADER 4  - Mean alpha-sphere SA              : 0.5996
+HEADER 5  - Mean B-factor                     : 0.0913
+HEADER 6  - Hydrophobicity Score              : 15.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.8000
+HEADER 9  - Real volume (approximation)       : 199.1796
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 5.4286
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.3889
+ATOM   7834  POL STP    16      -0.087 -19.144  57.963    0.00     3.26
+ATOM  13047  POL STP    16       0.816 -20.049  58.242    0.00     3.54
+ATOM  13047  POL STP    16       1.078 -20.196  58.795    0.00     3.35
+ATOM   7835  POL STP    16      -1.070 -16.974  57.828    0.00     3.30
+ATOM  12919 APOL STP    16      -1.343 -16.352  58.425    0.00     3.16
+ATOM  12919 APOL STP    16      -1.713 -15.961  59.236    0.00     3.15
+ATOM   8573  POL STP    16       3.665 -19.199  60.554    0.00     3.41
+ATOM  11185 APOL STP    16       3.780 -19.179  60.497    0.00     3.50
+ATOM  13035 APOL STP    16       3.568 -19.225  60.611    0.00     3.33
+ATOM  13035  POL STP    16       3.609 -19.214  60.571    0.00     3.37
+ATOM  11184  POL STP    16       3.766 -19.165  60.523    0.00     3.48
+ATOM  13035 APOL STP    16       3.430 -19.271  60.705    0.00     3.20
+ATOM  13035  POL STP    16       3.550 -19.250  60.547    0.00     3.34
+ATOM  11874 APOL STP    16       4.369 -21.285  59.173    0.00     3.91
+ATOM  12920 APOL STP    16       0.566 -16.538  57.403    0.00     3.23
+ATOM  13057  POL STP    16       3.684 -22.343  59.135    0.00     3.55
+ATOM  13061  POL STP    16       3.631 -22.845  58.492    0.00     3.43
+ATOM  14435  POL STP    16       3.066 -21.422  57.111    0.00     3.97
+TER
+END
