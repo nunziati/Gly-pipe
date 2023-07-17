@@ -16,16 +16,22 @@ Simply extract the archive in the destination directory.
 
 2) DEPENDENCIES
 
-Gly-pipe runs with any python3 or python2 distribution. A python2 distribution is mandatory for SADIC software.
+Gly-pipe runs with any python3 or python2 distribution. A python2 distribution is mandatory for version 1 of the SADIC software, python 3.10 is required for the SADIC package (version 2).
 
-SADIC (Simple Atom Depth Index Calculator) is needed in order to calculate atom depth indexes. 
-- It can be retrieved at: 
-	http://sadic.sourceforge.net/
-- To install SADIC, a python2 distribution is needed.
-- Numarray package is needed in order to build and install SADIC. Numarray can be downloaded at:
+SADIC (Simple Atom Depth Index Calculator) is needed in order to calculate atom depth indexes.
+- SADIC version 1:
+	- It can be retrieved at:
+   	http://sadic.sourceforge.net/
+	- To install SADIC, a python2 distribution is needed.
+	- Numarray package is needed in order to build and install SADIC. Numarray can be downloaded at:
 	https://sourceforge.net/projects/numpy/files/Old%20Numarray/
-- Numarray should be extracted and installed using the "setup.py" script included in the Numarray package.
-- SADIC can then be installed using the "setup.py" script included in the SADIC package.
+	- Numarray should be extracted and installed using the "setup.py" script included in the Numarray package.
+	- SADIC can then be installed using the "setup.py" script included in the SADIC package.
+- SADIC version 2:
+	- It can be installed with:
+	```bash
+	pip install sadic
+	```
 
 POPS (solvent accessible surface areas of proteins and nucleic acids) is needed in order to calculate the SASA of each residue.
 - It can be downloaded at:
@@ -55,6 +61,8 @@ Fpocket software is needed in order to estimate the pockets.
 
 Gly-pipe can be run as any python script by calling: 
 	python GlyPipe.py [args]
+- The first arg should be the name of the structure to be analyzed, left out the ".pdb" extension, as explained below.
+- The second arg is optional and it should be "v1" or "v2", to choose between the two versions of SADIC. By default, version 1 is used.
 
 To analyze a protein structure, its ".pdb" file should be provided. 
 - The file must be saved in the "structures" subdirectory.
