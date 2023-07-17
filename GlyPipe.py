@@ -1,3 +1,5 @@
+# pyright: reportUnusedImport=false, reportMissingImports=false, reportGeneralTypeIssues=false, reportOptionalIterable=false, reportOptionalMemberAccess=false, reportOptionalOperand=false, reportInvalidStringEscapeSequence=false
+# pylint: disable-all
 #coding=utf-8
 import sys
 import os
@@ -6,6 +8,7 @@ import re
 import math
 import pymol
 import numpy as np
+import sadic
 #call: python GlyPipe.py "PDB identifier"
 
 #import classes
@@ -16,6 +19,7 @@ from pocket_class import Pocket
 
 #constants
 pdb_code = sys.argv[1]
+sadic_version = sys.argv[2] # can be "v1" or "v2"
 target_path = "structures/"+pdb_code+".pdb"
 sasa_min = 5 # %
 sasa_max = 20 # %
@@ -68,6 +72,9 @@ descriptor_labels = [ 	"Score", "Number of Alpha Spheres", "Total SASA", "Polar 
 			"Proportion of polar atoms", "Alpha sphere density", "Cent. of mass - Alpha Sphere max dist", "Flexibility",
 			"Druggability Score" ]
 
+if sadic_version not in {"v1", "v2"}:
+	raise Exception("Invalid SADIC version")
+
 #execution
 
 #check existence of the structure file for the protein in input
@@ -79,7 +86,12 @@ print("Running Gly-pipe on "+target_path)
 #call sadic
 print("Calling SADIC algorithm in order to calculate the Depth Index of each atom")
 try:
-	os.system("python scripts/sadic.py "+target_path)
+	if sadic_version == "v1":
+		os.system("python scripts/sadic.py "+target_path)
+	elif sadic_version == "v2":
+		sadic_result = sadic.sadic(target_path)
+		sadic_result.save_txt(pdb_code+"_di.txt")
+
 except:
 	sys.exit("Exception caught during the execution of SADIC algorithm")
 #move result file to SADIC result directory
@@ -137,7 +149,8 @@ sadic_lines = sadic_text.splitlines(sadic_text.count("\n"))
 for i in range(1,len(sadic_lines)):
 	#each line corresponds to an atom
 	cells = re.split("[\s]+",sadic_lines[i])
-	depth_index = cells[len(cells)-2]
+	cell_index = len(cells) - 2 if sadic_version == "v1" else 1
+	depth_index = cells[cell_index]
 	atom_id = int(cells[0])
 	#skip secondary conformers (not reported by pops, thus not inserted in <atom_to_residue>)
 	if atom_id not in atom_to_residue.keys():
